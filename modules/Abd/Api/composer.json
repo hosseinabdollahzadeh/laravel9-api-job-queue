@@ -1,0 +1,15 @@
+{
+    "name": "abd/api",
+    "autoload": {
+        "psr-4": {
+            "Abd\\Api\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers":[
+                "\\Abd\\Api\\Providers\\ApiServiceProvider"
+            ]
+        }
+    }
+}
